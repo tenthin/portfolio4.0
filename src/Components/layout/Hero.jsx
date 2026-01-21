@@ -20,13 +20,13 @@ const Hero = () => {
           </p>
 
           <div className="mt-8 flex justify-center items-center md:justify-start gap-4">
-            <button className="px-6 py-3 rounded-lg bg-cta-light hover:bg-surface-dark dark:bg-cta-dark border text-white dark:hover:text-textPrimary-dark dark:hover:bg-surface-dark font-medium">
+            <a href="#projects" className="px-6 py-3 rounded-lg bg-cta-light hover:bg-surface-dark dark:bg-cta-dark border text-white dark:hover:text-textPrimary-dark dark:hover:bg-surface-dark font-medium">
               View Projects
-            </button>
+            </a>
 
-            <button className="px-6 py-3 rounded-lg border border-border-light hover:bg-surface-dark dark:border-border-light text-textPrimary-light hover:text-textPrimary-dark dark:text-textPrimary-light dark:hover:text-textPrimary-dark dark:bg-surface-light dark:hover:bg-surface-dark">
+            <a href="/Tenzin_Resume.pdf" download className="px-6 py-3 rounded-lg border border-border-light hover:bg-surface-dark dark:border-border-light text-textPrimary-light hover:text-textPrimary-dark dark:text-textPrimary-light dark:hover:text-textPrimary-dark dark:bg-surface-light dark:hover:bg-surface-dark">
               Download Resume
-            </button>
+            </a>
             <div>
               <div className="flex gap-4">
                 <i className="fa-brands fa-linkedin text-4xl cursor-pointer text-[#0a66c2]"></i>
