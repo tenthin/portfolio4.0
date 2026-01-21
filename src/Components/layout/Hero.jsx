@@ -14,17 +14,26 @@ const Hero = () => {
           </h1>
 
           <p className="mt-6 text-xl text-textSecondary-light dark:text-textSecondary-dark max-w-xl">
-            Based in Toronto,Canada, Frontend developer who turns ideas into
-            real, working products using JavaScript and React, with a focus on
-            clean logic and continuous learning.
+            Frontend developer based in Toronto, Canada.
+          </p>
+          <p className="mt-6 text-xl text-textSecondary-light dark:text-textSecondary-dark max-w-xl">
+            I build real, working products with JavaScript and React, focusing
+            on clean logic and continuous learning.
           </p>
 
           <div className="mt-8 flex justify-center items-center md:justify-start gap-4">
-            <a href="#projects" className="px-6 py-3 rounded-lg bg-cta-light hover:bg-surface-dark dark:bg-cta-dark border text-white dark:hover:text-textPrimary-dark dark:hover:bg-surface-dark font-medium">
+            <a
+              href="#projects"
+              className="px-6 py-3 rounded-lg bg-cta-light hover:bg-surface-dark dark:bg-cta-dark border text-white dark:hover:text-textPrimary-dark dark:hover:bg-surface-dark font-medium"
+            >
               View Projects
             </a>
 
-            <a href="/Tenzin_Resume.pdf" download className="px-6 py-3 rounded-lg border border-border-light hover:bg-surface-dark dark:border-border-light text-textPrimary-light hover:text-textPrimary-dark dark:text-textPrimary-light dark:hover:text-textPrimary-dark dark:bg-surface-light dark:hover:bg-surface-dark">
+            <a
+              href="/Tenzin_Resume.pdf"
+              download
+              className="px-6 py-3 rounded-lg border border-border-light hover:bg-surface-dark dark:border-border-light text-textPrimary-light hover:text-textPrimary-dark dark:text-textPrimary-light dark:hover:text-textPrimary-dark dark:bg-surface-light dark:hover:bg-surface-dark"
+            >
               Download Resume
             </a>
             <div>
