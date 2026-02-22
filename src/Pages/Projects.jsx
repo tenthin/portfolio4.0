@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Card from "../Components/ui/Card";
+import weatherapp from "../img/weatherapp.png"
+import youtube from "../img/youtubeanalyzer.png"
 
 const projects = [
-  { id: 1, title: "Expense Tracker", difficulty: "Easy", github:"https://github.com/tenthin/expenseTracker", livesite:"https://expensetrack01.netlify.app/" },
-  { id: 2, title: "Weather App", difficulty: "Medium", github:"https://github.com/tenthin/WeatherApp", livesite:"https://weather-forecast-app01.netlify.app/"  },
-  { id: 3, title: "Youtube Analyzer", difficulty: "Difficult", github:"https://github.com/tenthin/youtube-analyzer", livesite:"https://youtube-analyzer-01.netlify.app/"  },
+  { id: 1, title: "Expense Tracker", difficulty: "Easy",github:"https://github.com/tenthin/expenseTracker", livesite:"https://expensetrack01.netlify.app/" },
+  { id: 2, title: "Weather App", difficulty: "Medium",  img:weatherapp, github:"https://github.com/tenthin/WeatherApp", livesite:"https://weather-forecast-app01.netlify.app/"  },
+  { id: 3, title: "Youtube Analyzer", difficulty: "Difficult", img: youtube, github:"https://github.com/tenthin/youtube-analyzer", livesite:"https://youtube-analyzer-01.netlify.app/"  },
 ];
 const Projects = () => {
   const [filter, setFilter] = useState("all");
@@ -44,6 +46,7 @@ const Projects = () => {
             <Card
               key={project.id}
               title={project.title}
+              img={project.img}
               difficulty={project.difficulty}
               github={project.github}
               livesite={project.livesite}

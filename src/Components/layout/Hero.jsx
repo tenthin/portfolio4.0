@@ -38,8 +38,12 @@ const Hero = () => {
             </a>
             <div>
               <div className="flex gap-4">
-                <i className="fa-brands fa-linkedin text-4xl cursor-pointer text-[#0a66c2]"></i>
-                <i className="fa-brands fa-github text-4xl cursor-pointer"></i>
+                <a href="https://www.linkedin.com/in/tenzinthinley01/" target="_blank">
+                  <i className="fa-brands fa-linkedin text-4xl cursor-pointer text-[#0a66c2]"></i>
+                </a>
+                <a href="https://github.com/tenthin" target="_blank">
+                  <i className="fa-brands fa-github text-4xl cursor-pointer"></i>
+                </a>
               </div>
             </div>
           </div>

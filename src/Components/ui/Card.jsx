@@ -1,15 +1,12 @@
 import React from "react";
 
-const Card = ({ title, difficulty, github, livesite }) => {
+const Card = ({ title, difficulty, github, livesite, img }) => {
   return (
-    <div
-      className="border p-6 rounded-2xl hover:-translate-y-1 hover:shadow-lg transition
-"
-    >
-      <div className="h-40 bg-gray-100 rounded-xl mb-4 cursor-pointer" />
-
+    <div className="border p-6 rounded-2xl hover:-translate-y-1 hover:shadow-lg transition">
+      <div className="h-50 rounded-xl mb-4 overflow-hidden">
+        <img src={img} alt={title} className="w-full h-full object-cover" />
+      </div>
       <h3 className="text-2xl font-semibold mb-2">{title}</h3>
-
       <span className="text-sm text-gray-500 capitalize">
         Difficulty: {difficulty}
       </span>
@@ -22,7 +19,6 @@ const Card = ({ title, difficulty, github, livesite }) => {
         >
           GitHub
         </a>
-
         <a
           href={livesite}
           target="_blank"
